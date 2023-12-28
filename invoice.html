@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice - Mazhar Electric Store</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa; /* Light Gray */
+      margin-top: 20px;
+    }
+
+    .invoice-header {
+      text-align: center;
+      background-color: #343a40; /* Dark Gray */
+      color: #fff;
+      padding: 20px;
+    }
+
+    .customer-info {
+      margin-top: 20px;
+    }
+
+    .invoice-details {
+      margin-top: 20px;
+    }
+
+    .total-section {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .footer-section {
+      margin-top: 20px;
+      text-align: center;
+      font-style: italic;
+      color: #6c757d; /* Gray */
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="invoice-header">
+      <h2 class="mb-0">Mazhar Electric Store</h2>
+      <p class="mb-0">Chenab Bazar-Kot Momin, Bhalwal Rd, Near The Sewer</p>
+      <p class="mb-0">Mobile: +923458602113</p>
+      <h3 class="mt-4 mb-0">Invoice</h3>
+    </div>
+
+    <div class="customer-info">
+      <h4>Customer Information</h4>
+      <p><strong>Customer Name:</strong> Noman Akbar</p>
+      <p><strong>Address:</strong> Chak Raib, Near Malakwal</p>
+      <p><strong>Contact:</strong> nomanakbar@gmail.com</p>
+    </div>
+
+    <div class="invoice-details">
+      <h4>Invoice Details</h4>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Sl. No.</th>
+            <th scope="col">Item</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Unit Price</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>LED Bulbs</td>
+            <td>12</td>
+            <td>Rs150.00</td>
+            <td>Rs1800.00</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Electric Heater</td>
+            <td>1</td>
+            <td>Rs1800.00</td>
+            <td>Rs1800.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="total-section">
+      <h4>Total</h4>
+      <p><strong>Subtotal:</strong> Rs3600.00</p>
+      <p><strong>Discount (10%):</strong> Rs360.00</p>
+      <p class="font-weight-bold">Total: Rs3240.00</p>
+    </div>
+
+    <div class="footer-section">
+      <p>Payment terms: Bill return within 7 days</p>
+      <p>Thank you for your business!</p>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies (optional) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
